@@ -21,7 +21,7 @@ re.search(pattern,row1)
 # {n} number of occurrence: here, there will be 3 occurrences in [a-z]
 pattern = r"[a-z0-9_.]+@[a-z]+.[a-z]{3}" # any_no_letters/numerals@any_no_letter.any_no_letter  eg: ved.89@gmail.com
 
-
+# https://quickref.me/regex.html
 
 # 2. \w+ - Matches the Username (Before @)
 # \w → Matches any word character (letters, digits, underscores) → [a-zA-Z0-9_]
